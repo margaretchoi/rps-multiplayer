@@ -1,0 +1,34 @@
+h1 {font-size: 32px;}
+h2 {font-size: 24px;}
+h3 {font-size: 19px;}
+h4 {font-size: 16px;}
+h5 {font-size: 14px;}
+h6 {font-size: 13px;}
+
+#container {
+	width: 1024px;
+	margin: 0 auto;
+}
+
+#game-window {
+	width: 50%;
+	float: left;
+}
+
+#player-window {
+	width: 25%;
+	float: left;
+}
+
+#chat-window {
+	width: 25%;
+	float: left;
+}
+
+.clearfix:after {
+   content: " ";
+   visibility: hidden;
+   display: block;
+   height: 0;
+   clear: both;
+}
